@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
-
-body, html {
-    height: 100%;
-    margin:0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
 }
-
 header {
   background: url('MyImages/unsplash.jpg') no-repeat center center/cover;
   opacity: 1;
@@ -31,7 +29,7 @@ header {
   } 
 
   .logo h2{
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
     font-family: "Sofia", cursive; 
   }
@@ -59,9 +57,11 @@ header {
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size:20px;
+    font-size:1.2rem;
   }  
-
+  .navbar nav ul li a:hover{
+    color: rgb(160, 10, 42);
+  }
   .hero{
     margin-top: 250px;
     display: flex;
@@ -79,6 +79,7 @@ header {
     font-family: "Sofia", cursive;
     font-weight: 700;
     font-size: 81px;
+    font-size: 5rem;
     color: rgb(248, 160, 28);
   }
   
@@ -88,7 +89,7 @@ header {
     font-weight: 400;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.1rem;
     margin-top: 20px;
     color: rgb(247, 246, 244);
   }
@@ -99,6 +100,7 @@ header {
     outline: 0;
     display: inline-block;
     padding: 20px 45px;
+    font-size: 1rem;
     color: black;
     background-color: #fff;
     text-align: center;
@@ -112,12 +114,14 @@ header {
   }
    
   .Places{
+    margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
   }
 
+/* Services */
 .services{
-  margin-top: 50px;
+    margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
     justify-content: space-evenly;
@@ -125,10 +129,13 @@ header {
     font-style: normal;
   }
   .services h1{
-    font-size: 50px;
+    font-size:3rem;
     font-family: "Princess Sofia", cursive;
   }
-.grid-container{
+  .services p{
+    font-size: 1.2rem;
+  }
+.ser-container{
     display: grid;
     grid: 150px/auto auto auto;
     gap: 100px;
@@ -136,37 +143,42 @@ header {
     padding: 45px;
     justify-content: center;
 }
-.grid-container > div{
+.ser-container > div{
     background-color: none;
     width: 250px;
     height: 420px;
     padding-right: 45px;
-    border: 1px solid ;
-    border-radius: 5px;
     text-align: center;
     color: white;
     justify-content: space-evenly;
   }
-.service-images{
+
+.ser-images{
     border-radius: 20px;
 }
+.ser-images:hover{
+  border: 2px solid black;
+}
+
 .button{
     background-color: rgba(255, 0, 0, 0.144);
     color: #887979;
-    border: none;
+    border: 2px solid indianred;
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 15px ;
-    margin-left: 50px;
+    margin-left: 55px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
+    transition: background 0.3s, color 0.3s, border 0.3s;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
 }
 .button:hover{
     background-color: #0A0A0A;
-    color:#fff
+    color:#fff;
+    border:2px solid #fff;
 }
 header{
     background-color:none;
@@ -190,54 +202,67 @@ nav a{
     text-decoration: none;
 }
 
-.image{
-    float: right;
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    margin-left: 45px;
-}
+
+/* Aboutus */
 .aboutus{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.abt-image{
+  float: right;
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  margin-left: 45px;
+} 
+
+.abt-image:hover{
+  border: 2px solid #0A0A0A;
+  border-radius: 20px;
+}
+
 .aboutus h1{
-  font-size: 50px;
+  font-size: 3rem;
   font-family: "Princess Sofia", cursive;
 }
 .aboutus p{
   font-family: "Sofia", cursive; 
 }
-.button1{
+.abt-btn{
     background-color: rgb(16, 174, 236);
     color: #e59999;
-    border: none;
     border-radius: 20px;
     padding: 15px;
     margin-top: 15px ;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 300;
+    transition: background 0.3s, color 0.3s, border 0.3s;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
 }
-.button1:hover{
+.abt-btn:hover{
     background-color: #807e7e;
-    color:#fff
-}
-.for-icon{
-    width: 50px;
-    height: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    color:#fff;
+    border: 2px solid #000000;
 }
 
+
+/* Video */
 #myvideo {
     position:relative;
     z-index:0;
     margin-left: 50px;
+}
+
+.for-icon{
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 #myBtn {
@@ -257,7 +282,7 @@ nav a{
 .content{
     color:#0A0A0A;
     position: absolute;
-    top: 2770px;
+    top: 2660px;
     left: 0;
     z-index: 1;
     margin-left: 140px;
@@ -265,15 +290,15 @@ nav a{
     justify-items: center;
 }
 .content h1{
-  font-size: 90px;
+  font-size: 5.5rem;
   font-family: "Princess Sofia", cursive;
 }
 
-/* Down here css for testimonials part */
 
+/* Down here css for testimonials part */
 #testimonial{
   padding: 0;
-  margin-top:15opx;
+  margin-top:25px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: yellow;
@@ -368,4 +393,83 @@ button#prev {
 }
 #read-more:hover{
   background-color: #807e7e;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:1024px) {
+.services h1 p{
+  margin-top: 50px;
+}
+
+.ser-images{
+  margin-top: 80px;
+  } 
+  
+.aboutus{
+ grid-template-columns: 1fr;
+ text-align: center;
+}
+ 
+.abt-image{
+  margin: 20px auto;
+}
+
+.Places{
+  margin-top: 50px;
+}
+
+
+
+}
+
+@media  and (max-width:480px) {
+   
+  .logo{
+    font-size:20px;
+  }
+
+  .navbar nav ul li a {
+    font-size: 18px;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .navbar nav ul li {
+    margin-top: 4px;
+  }
+   
+  .services h1 p {
+    margin-top: 60px;
+  }
+    
+   .ser-container{
+    flex-direction: column;
+    margin-top: 0;
+   }
+
+   .ser-images{
+   margin-top: 80px;
+   }
+   
+   .aboutus p{
+    font-size: 1.2rem;
+   }
+   .abt-btn{
+    width: 120px;
+    font-size: 16px;
+   }
+   .abt-image{
+    margin-left: 0;
+   }
+   #myvideo{
+    margin-left: 0;
+   }
+
 }
