@@ -40,6 +40,7 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 123px;
+  background: rgb(0 178 248 / 50%);
 }
 .nav-list li{
   list-style: none;
@@ -53,7 +54,7 @@ html {
   font-weight: 500;
   font-size: 1.3rem;
   margin-top: 100px;
-  padding: 60px;
+  padding: 36px;
 }
 
 .nav-list li a:hover {
@@ -78,6 +79,7 @@ html {
   font-size: 81px;
   font-size: 5rem;
   color: rgb(248, 160, 28);
+  background: rgb(0 51 95 / 50%);
 }
 
 .text-sm{
@@ -88,7 +90,8 @@ html {
   font-weight: 500;
   font-size: 1.5rem;
   margin-top: 20px;
-  color: rgb(24 11 223);
+  text-decoration: underline;
+  color: wheat;
 }
 
 .quoteBtn{
@@ -230,7 +233,8 @@ html {
 }
 
 
-/* Video */
+/* Video Section here CSS */
+
 .myVideo {
   position: relative;
   z-index: 0;
@@ -398,9 +402,9 @@ button#prev {
     
    .nav-list{
     flex-direction: column;
-    margin-top: 250px;
-    font-size: 2.9rem;
-    padding-top: 150px;
+    margin-top: 320px;
+    font-size: 4.9rem;
+    padding-top: 170px;;
    }
    .nav-list li a{
     font-size: 41px;
@@ -413,5 +417,10 @@ button#prev {
    .services{
     text-align: center;
    }
-   
+   .abt-image {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+   }
 }
