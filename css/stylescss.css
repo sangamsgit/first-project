@@ -186,7 +186,6 @@ html {
 
 /* Aboutus */
 .aboutus {
-  display: flex;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -226,6 +225,7 @@ html {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  align-self: center;
 }
 
 .abt-btn:hover {
@@ -239,9 +239,7 @@ html {
 .myVideo {
   position: relative;
   z-index: 0;
-  width: 1000px; 
-  margin-left: 60px; 
-  margin-right:60px;
+  width: 62.5rem; 
 }
 
 .for-icon {
@@ -249,7 +247,7 @@ html {
   height: 30px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
 }
 
 #myBtn {
@@ -260,7 +258,7 @@ html {
   color: #fff;
   cursor: pointer;
   margin-top: 380px;
-  margin-left: 450px;
+  margin-left: 340px;
 }
 
 #myBtn:hover {
@@ -268,10 +266,10 @@ html {
   color: #555;
 }
 
-.content {
+.V-text{
   color: #0A0A0A;
   position: absolute;
-  top:2900px;
+  top:4799px;
   left: 0;
   z-index: 1;
   margin-left: 140px;
@@ -279,7 +277,7 @@ html {
   justify-items: center;
 }
 
-.content h1 {
+.V-text h1 {
   font-size: 5.5rem;
   font-family: "Princess Sofia", cursive;
 }
