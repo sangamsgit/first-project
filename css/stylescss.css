@@ -67,7 +67,7 @@ html {
   text-align: center;
   justify-content: center;
   position: absolute;
-  color: rgb(255, 196, 27);
+  color: rgb(255, 255, 255);
   align-items: center;
   margin-top: 450px;
 }
@@ -78,8 +78,8 @@ html {
   font-weight: 700;
   font-size: 81px;
   font-size: 5rem;
-  color: rgb(248, 160, 28);
-  background: rgb(0 51 95 / 50%);
+  color: rgb(235, 235, 235);
+  background: rgb(17 130 255 / 75%);
 }
 
 .text-sm{
@@ -91,7 +91,7 @@ html {
   font-size: 1.5rem;
   margin-top: 20px;
   text-decoration: underline;
-  color: wheat;
+  color: rgb(255, 255, 255);
 }
 
 .quoteBtn{
@@ -234,6 +234,11 @@ html {
 
 
 /* Video Section here CSS */
+.video-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .myVideo {
   position: relative;
