@@ -110,16 +110,10 @@ html {
   color: white;
 }
 
-.Places {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
 /* Services */
 .services {
   margin-top: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
+
   justify-content: space-evenly;
   font-weight: 400;
   font-style: normal;
@@ -399,7 +393,7 @@ button#prev {
 
 
 {}
-@media screen and (max-width:1112px) {
+@media screen and (max-width:1020px) {
     
    .nav-list{
     flex-direction: column;
@@ -418,5 +412,5 @@ button#prev {
    .services{
     text-align: center;
    }
-
+   
 }
