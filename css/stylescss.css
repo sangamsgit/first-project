@@ -203,6 +203,7 @@ html {
 }
 
 .aboutus p {
+  justify-content: center;
   font-family: "Sofia", cursive;
 }
 
