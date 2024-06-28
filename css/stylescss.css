@@ -242,7 +242,7 @@ html {
   align-items: center;
 }
 
-.myVideo {
+#myVideo {
   z-index: 0; 
   max-width: 100%;
   height: auto;
@@ -250,6 +250,8 @@ html {
 .V-text{
   color: #0A0A0A;
   margin-top: -814px;
+  z-index: 1;
+  opacity: 0.75;
 }
 
 .V-text h1 {
@@ -274,16 +276,17 @@ html {
   font-size: 18px;
   padding: 10px;
   border: 10px;
+  cursor: pointer;
   background: none;
   color: #fff;
   margin-top: 252px;
   margin-left: 600px;
 }
 
+
 #myBtn:hover {
   background: #ddd;
   color: #555;
-  cursor: pointer;
 }
 
 
@@ -362,6 +365,8 @@ button#prev {
 /* Testimonials end here */
 
 /* Continued Css */
+
+/* Choose Us */
 .Why-us {
   margin-right: 5%;
   margin-left: 5%;
@@ -378,7 +383,7 @@ button#prev {
 }
 
 #read-more {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #fff;
   background-color: #0a69ed;
   border: 5px;
@@ -389,6 +394,7 @@ button#prev {
   padding: 16px;
   margin-left: 45%;
   margin-top: 15px;
+  margin-bottom: 5px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -396,8 +402,55 @@ button#prev {
 
 #read-more:hover {
   background-color: #807e7e;
-} */
+} 
 
+/* Form Section  */
+
+.text-center{
+  text-align: center;
+}
+.form{
+  max-width: 344px;
+  margin: auto;
+}
+
+input[type=text],input[type=email], input[type=tel]{
+  width: 100%;
+  justify-content: center;
+  padding: 12px 20px;
+}
+.form-btn{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 6px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  padding-inline: 36px;
+  background: black;
+  color: white;
+}
+
+textarea{
+  width: 320px;
+  height: 100px;
+}
+
+/* Footer Section */
+footer{
+  padding-top: 100px;
+  background: #9b9b9b;
+  text-align: center;
+}
+.ftr-text{
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 500px;
+}
+.svg{
+  display: flex;
+  margin-top: -37px;
+}
 
 
 /* Responsive */
