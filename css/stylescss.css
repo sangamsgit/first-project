@@ -40,7 +40,7 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 123px;
-  background: rgb(0 178 248 / 50%);
+  background: rgba(245, 204, 24, 0.5);
 }
 .nav-list li{
   list-style: none;
@@ -79,7 +79,7 @@ html {
   font-size: 81px;
   font-size: 5rem;
   color: rgb(235, 235, 235);
-  background: rgb(17 130 255 / 75%);
+  background: rgba(207, 211, 4, 0.75);
 }
 
 .text-sm{
@@ -274,13 +274,14 @@ html {
   border: 10px;
   background: none;
   color: #fff;
-  cursor: pointer;
   margin-top: 252px;
+  margin-left: 600px;
 }
 
 #myBtn:hover {
   background: #ddd;
   color: #555;
+  cursor: pointer;
 }
 
 
@@ -401,7 +402,7 @@ button#prev {
 
 
 {}
-@media screen and (max-width:1112px) {
+@media screen and (max-width:1112px) and (min-width:768px) {
     
    .nav-list{
     flex-direction: column;
