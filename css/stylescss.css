@@ -79,7 +79,7 @@ html {
   font-size: 81px;
   font-size: 5rem;
   color: rgb(235, 235, 235);
-  background: rgba(207, 211, 4, 0.75);
+  background: rgba(247, 248, 170, 0.5);
 }
 
 .text-sm{
@@ -128,7 +128,9 @@ html {
 }
 
 .services p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-family: "Sofia", cursive;
+  justify-content: center;
 }
 
 .ser-container {
