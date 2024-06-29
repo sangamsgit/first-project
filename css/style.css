@@ -86,7 +86,7 @@
 .swiper-pagination-bullet-active {
   background-color: #4070f4;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1112px) {
   .slide p {
     padding: 0 20px;
   }
@@ -94,11 +94,12 @@
     display: none;
   }
 }
-@media  and (max-width:1024px) {
+@media  and (max-width: 1112px) {
   .container{
     display: flex;
     align-items: center;
   }
+
   .slide p{
     width: 80%;
   }
