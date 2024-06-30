@@ -479,7 +479,7 @@ footer {
 /* Responsive */
 
 
-@media screen and (max-width:1112px) and (min-width:425px) {
+@media screen and (max-width:1112px) and (min-width:768px) {
 
   .nav-list {
     flex-direction: column;
@@ -499,13 +499,6 @@ footer {
     margin-left: 5px;
   }
 
-  .text-sm{
-    font-size: 1rem;
-  }
-  .another{
-    margin: 0;
-    font-size: 0.1rem;
-  }
 
   .ser-container {
     flex-direction: column;
@@ -541,11 +534,11 @@ footer {
   .V-text {
     text-align: center;
     font-size: 2rem;
-    margin: -350px;
+    margin-top: -500px;
   }
 
   #myBtn {
-    margin-top: 112px;
+    margin-top: 180px;
     margin-left: 14px;
   }
    
@@ -568,10 +561,14 @@ footer {
    margin-left: 92px;
    margin-bottom: 50px;
  }
+ .testi-title{
+  margin-left: 135px;
+ }
  .form{
   width: 300px;
  }
+}
 
-
-
+@media screen and (max-width:420px){
+  
 }
