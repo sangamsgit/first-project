@@ -120,7 +120,8 @@ html {
 /* Services */
 .services {
   margin-top: 50px;
-
+  margin-left: 5%;
+  margin-right: 5%;
   justify-content: space-evenly;
   font-weight: 400;
   font-style: normal;
@@ -191,6 +192,7 @@ html {
 .aboutus {
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 400px;
 }
 
 .abt-image {
@@ -244,6 +246,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#blog{
+  padding-bottom: 375px;
 }
 
 #myVideo {
@@ -307,6 +313,7 @@ html {
 h1.testi-text {
   margin-top: 62px;
 }
+
 p.testi-text {
   position: relative;
   margin-left: 520px;
@@ -460,7 +467,7 @@ input[type=tel] {
 }
 
 textarea {
-  width: 300px;
+  width: 338px;
   height: 100px;
 }
 
@@ -541,34 +548,113 @@ footer {
     margin-top: 180px;
     margin-left: 14px;
   }
-   
+
   .Why-us p {
     font-size: 12px;
   }
 
- .heading {
+  .heading {
     background: none;
   }
 
- h1.testi-text {
-  font-size: 30px;
-  margin-left: 110px;
-  margin-top: 62px;
- }
+  h1.testi-text {
+    font-size: 30px;
+    margin-left: 110px;
+    margin-top: 62px;
+  }
 
- p.testi-text {
-   font-size: 20px;
-   margin-left: 92px;
-   margin-bottom: 50px;
- }
- .testi-title{
-  margin-left: 135px;
- }
- .form{
-  width: 300px;
- }
+  p.testi-text {
+    font-size: 20px;
+    margin-left: 92px;
+    margin-bottom: 50px;
+  }
+
+  .testi-title {
+    margin-left: 135px;
+  }
+
+  .form {
+    width: 300px;
+  }
 }
 
-@media screen and (max-width:420px){
-  
+@media screen and (max-width:480px) {
+
+  .nav-list {
+    flex-direction: column;
+    margin-top: 300px;
+  }
+
+  .nav-list li {
+    list-style: none;
+    padding: 15px;
+    margin: -10px;
+  }
+
+  .services h1 {
+    text-align: center;
+  }
+
+  .ser-container {
+    flex-direction: column;
+  }
+
+  .aboutus{
+    padding-bottom: 150px;
+  }
+
+  .aboutus h1 {
+    text-align: center;
+  }
+
+  .aboutus p{
+    font-size: 24px;
+  }
+
+  .abt-image {
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-bottom: 43px;
+    margin-left:0;
+  }
+
+  .abt-btn {
+    padding: 5px;
+  }
+
+  .V-text {
+    margin-top: -342px;
+  }
+
+  .V-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .V-text p {
+    font-size: 8px;
+  }
+
+  #myBtn {
+    margin-top: 92px;
+    margin-left: 172px;
+  }
+
+  .testi-text {
+    margin-left: 20px;
+    font-size: 50px;
+  }
+
+  p.testi-text {
+    margin-left: 20px;
+    font-size: 29px;
+  }
+
+  #read-more {
+    margin-left: 34%;
+  }
+  #blog{
+    padding-bottom: 75px;
+  }
+
 }
