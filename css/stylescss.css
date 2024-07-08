@@ -83,7 +83,7 @@ html {
   font-size: 81px;
   font-size: 5rem;
   color: rgb(235, 235, 235);
-  background: rgba(247, 248, 170, 0.5);
+  text-shadow:2px 2px yellow;
 }
 
 .text-sm {
